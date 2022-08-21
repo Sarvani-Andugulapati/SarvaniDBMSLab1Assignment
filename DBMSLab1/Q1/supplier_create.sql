@@ -1,0 +1,6 @@
+Create table if not exists supplier(
+SUPP_ID INT auto_increment,
+SUPP_NAME VARCHAR(50) NOT NULL,
+SUPP_CITY VARCHAR(50) NOT NULL,
+SUPP_PHONE VARCHAR(50) NOT NULL,
+PRIMARY KEY(SUPP_ID));
